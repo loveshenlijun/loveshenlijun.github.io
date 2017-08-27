@@ -66,11 +66,12 @@ body {
 
 #code {
 	float: left;
-	width: 100px;
+	width: 1px;
 	height: 400px;
 	color: #333;
 	font-family: "Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
-	font-size: 12px
+	font-size: 12px;
+	overflow: hidden;
 }
 
 #code .string {
@@ -113,4 +114,4 @@ body {
 #copyright a {
 	color: #666
 }
-.love{ width: 60px; height: 70px; position: absolute; left: 50%; margin-left: 20px;}
+.love{ width: 60px; height: 70px; position: absolute; left: 50%; margin-left: -20px;}
